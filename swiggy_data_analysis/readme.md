@@ -1,98 +1,59 @@
-🍽️ Swiggy Data Analysis Dashboard
+🍽️ Swiggy Restaurant Analytics Dashboard
 
 📌 Overview
 
-This project focuses on analyzing Swiggy restaurant data to extract meaningful business insights related to customer preferences, pricing strategies, and delivery performance. The analysis is performed using SQL, and the results are visualized through an interactive Power BI dashboard.
-
-
+This project analyzes Swiggy restaurant data to uncover actionable business insights related to customer preferences, pricing strategies, and delivery performance. Using SQL for data analysis and Power BI for visualization, the project demonstrates how data-driven decisions can improve operational efficiency and customer satisfaction.
 
 📊 Dashboard Preview
 
-🔹 Main Dashboard
-![Dashboard](Images/Dashboard.png)
-
-🔹 Detailed Analysis View
-![Analysis](Images/Analysis.png)
+Main Dashboard
 
 
-🎯 Objectives
-
-* Analyze restaurant distribution across cities
-* Identify top-performing restaurants based on ratings
-* Understand pricing trends and their impact on customer satisfaction
-* Evaluate delivery performance across different cities
-* Identify popular food categories
+Detailed Analysis View
 
 
-🛠️ Tools & Technologies
+🎯 Business Objectives
+Analyze restaurant distribution across cities to identify market saturation
+Identify top-performing restaurants based on ratings and customer feedback
+Evaluate the relationship between pricing and customer satisfaction
+Assess delivery performance across different regions
+Identify high-demand cuisines to support strategic decisions
 
-* **SQL (PostgreSQL)** – Data analysis and querying
-* **Power BI** – Dashboard creation and visualization
-* **Excel** – Data inspection and preprocessing
+🛠️ Tech Stack
+SQL (PostgreSQL): Data extraction, transformation, and analysis
+Power BI: Interactive dashboard and KPI visualization
+Excel: Data inspection and preprocessing
 
 📂 Dataset Description
 
-The dataset contains restaurant-level data with the following fields:
+The dataset contains restaurant-level data with key attributes:
 
-* ID
-* Area
-* City
-* Restaurant
-* Price
-* Average Ratings
-* Total Ratings
-* Food Type
-* Address
-* Delivery Time
+Location: City, Area, Address
+Restaurant Details: Name, Food Type
+Pricing: Average cost
+Performance Metrics: Ratings, Total Reviews
+Operations: Delivery Time
 
-
-
-🔍 Key Analysis Performed
-
-1. City-wise Restaurant Distribution
-
-* Identified cities with highest number of restaurants
-* Highlighted high competition areas
-
-2. Delivery Time Analysis
-
-* Compared average delivery time across cities
-* Identified regions with slower delivery
-
-3. Rating Analysis
-
-* Evaluated average ratings
-* Identified top-rated restaurants
-
-4. Price vs Rating Analysis
-
-* Analyzed relationship between pricing and customer satisfaction
-
-5. Food Category Analysis
-
-* Identified most popular cuisines
+🔍 Analytical Approach
+Performed data cleaning and preprocessing for consistency and accuracy
+Used SQL queries to extract trends and business patterns
+Built KPIs and drill-down dashboards in Power BI
+Conducted comparative analysis across cities and categories
 
 📈 Key Insights
+Metro cities like Bangalore, Mumbai, and Delhi show high restaurant density, indicating strong competition
+Delivery time varies significantly across regions, highlighting operational inefficiencies
+Pricing does not strongly correlate with customer ratings, suggesting service quality plays a larger role
+Certain cuisines consistently dominate across multiple cities
+Customer satisfaction is influenced by multiple factors beyond pricing
 
-* Metro cities such as Bangalore, Mumbai, and Delhi have higher restaurant density
-* Delivery times vary significantly across cities, indicating operational inefficiencies
-* Higher price does not necessarily result in better ratings
-* Certain cuisines dominate across multiple cities
-* Customer satisfaction depends on multiple factors beyond pricing
-
-
-
-🚀 Business Recommendations
-
-* Expand in cities with high demand but lower competition
-* Optimize delivery operations in high-delay regions
-* Focus on high-demand cuisines to maximize engagement
-* Improve service quality for lower-rated restaurants
-
+💡 Business Recommendations
+Expand operations in high-demand cities with relatively lower competition
+Optimize delivery logistics in regions with higher delivery times
+Focus on popular cuisines to maximize engagement and revenue
+Improve service quality for low-rated restaurants to enhance retention
 
 📁 Project Structure
-
-
 SWIGGY_DATA_ANALYSIS/
 │
 ├── Dashboard/
@@ -109,14 +70,9 @@ SWIGGY_DATA_ANALYSIS/
 
 📌 Conclusion
 
-This project demonstrates how data analysis and visualization can be used to uncover actionable insights and support business decision-making in the food delivery industry.
+This project highlights the practical application of data analytics in solving real-world business problems. It demonstrates the ability to transform raw data into meaningful insights that support strategic decision-making in the food delivery industry.
 
-
-
-📎 Future Scope
-
-* Add time-based trend analysis
-* Incorporate customer-level data
-* Apply predictive analytics for demand forecasting
-
-
+🚀 Future Enhancements
+Incorporate time-series analysis for trend tracking
+Integrate customer-level data for deeper insights
+Apply predictive models for demand forecasting

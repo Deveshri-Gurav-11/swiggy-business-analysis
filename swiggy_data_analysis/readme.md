@@ -6,10 +6,12 @@ This project analyzes Swiggy restaurant data to uncover actionable business insi
 
 📊 Dashboard Preview
 
-Main Dashboard
 
+### Main Dashboard
+![Main Dashboard](Images/dashboard.png)
 
-Detailed Analysis View
+### Detailed Analysis
+![Detailed Analysis](Images/analysis.png)
 
 
 🎯 Business Objectives
